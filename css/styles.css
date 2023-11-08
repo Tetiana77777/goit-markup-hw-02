@@ -70,7 +70,7 @@ span {
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
-button {
+.start {
   cursor: pointer;
   background: #4d5ae5;
   color: #fff;
@@ -79,8 +79,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
-button:hover,
-button:focus {
+.start:hover,
+.start:focus {
   background-color: #404bbf;
   color: #fff;
 }
