@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background: #fff;
 }
 
@@ -10,7 +10,7 @@ ul {
 
 .logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -40,6 +40,10 @@ span {
 .link:hover,
 .link:focus {
   color: #404bbf;
+}
+
+.unfo {
+  font-style: normal;
 }
 
 .mail-tel {
@@ -75,8 +79,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
-button :hover,
-button :focus {
+.order :hover,
+.order :focus {
   color: #404bbf;
 }
 
@@ -103,6 +107,14 @@ h2 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.kard {
+  background-color: #ffffff;
 }
 
 .our-team-titl {
@@ -137,12 +149,13 @@ h2 {
   letter-spacing: 0.32px;
 }
 
-footer {
+.end {
   background-color: #2e2f42;
 }
 
 .end-logo {
   color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
 }
 
 .end-text {
